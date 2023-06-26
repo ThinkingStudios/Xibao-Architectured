@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "org.teacon.xibao.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MinecraftClientMixin",
+    "DisconnectedScreenMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
