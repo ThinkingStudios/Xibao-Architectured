@@ -1,6 +1,6 @@
-package org.teacon.xibao;
+package org.thinkingstudio.xibao;
 
-import org.teacon.xibao.config.XiBaoConfig;
+import org.thinkingstudio.xibao.config.XiBaoConfig;
 
 public class XiBaoMod {
     public static final String MOD_ID = "xibao";

@@ -1,35 +1,35 @@
 modLoader = "javafml"
-loaderVersion = "[43,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+loaderVersion = "[45,)"
+license = "Unlicense"
 
 [[mods]]
-modId = "examplemod"
+modId = "xibao"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "XiBao-Architectured"
+credits = "TeaCon, IzzelAliz"
+authors = "ThinkingStudio, TexTrue"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Xibao's Architectury port
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.xibao]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.xibao]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.xibao]]
 modId = "architectury"
 mandatory = true
-versionRange = "[6.2.43,)"
+versionRange = "[9,)"
 ordering = "AFTER"
 side = "BOTH"

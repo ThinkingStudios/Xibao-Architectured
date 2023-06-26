@@ -1,4 +1,4 @@
-package org.teacon.xibao.util;
+package org.thinkingstudio.xibao.util;
 
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

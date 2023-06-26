@@ -1,9 +1,9 @@
-package org.teacon.xibao.forge;
+package org.thinkingstudio.xibao.forge;
 
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import org.teacon.xibao.XiBaoMod;
+import org.thinkingstudio.xibao.XiBaoMod;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 

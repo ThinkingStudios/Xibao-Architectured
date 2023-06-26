@@ -1,10 +1,10 @@
-package org.teacon.xibao.config;
+package org.thinkingstudio.xibao.config;
 
 import dev.architectury.platform.Platform;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
-import org.teacon.xibao.XiBaoMod;
-import org.teacon.xibao.util.XibaoType;
+import org.thinkingstudio.xibao.XiBaoMod;
+import org.thinkingstudio.xibao.util.XiBaoType;
 
 import java.util.Random;
 
@@ -15,10 +15,10 @@ public class XiBaoConfig {
     public static boolean tempSnow = false;
     public static Random random = new Random();
 
-    private static XibaoType type = XiBaoConfig.getConfig().type;
+    private static XiBaoType type = XiBaoConfig.getConfig().type;
 
     public static void switchAlbum() {
-        XibaoType[] types = XibaoType.values();
+        XiBaoType[] types = XiBaoType.values();
         type = types[(type.ordinal() + 1) % types.length];
     }
 

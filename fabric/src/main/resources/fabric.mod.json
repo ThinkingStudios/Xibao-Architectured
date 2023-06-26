@@ -1,27 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "xibao",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Xi",
+  "description": "XiBao-Architectured",
   "authors": [
-    "Me!"
+    "ThinkingStudio", "TexTrue"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/ThinkingStudios/Xibao-Architectured",
+    "sources": "https://github.com/ThinkingStudios/Xibao-Architectured"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
-  "environment": "*",
+  "license": "Unlicense",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "org.teacon.xibao.fabric.XiBaoModFabric"
+    "client": [
+      "org.thinkingstudio.xibao.fabric.XiBaoModFabric"
     ]
   },
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.19.2",
-    "architectury": ">=6.2.43"
+    "minecraft": ">=1.20",
+    "architectury": ">=9.0"
   }
 }

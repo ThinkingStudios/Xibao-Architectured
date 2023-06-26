@@ -1,4 +1,4 @@
-package org.teacon.xibao.util;
+package org.thinkingstudio.xibao.util;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.render.*;

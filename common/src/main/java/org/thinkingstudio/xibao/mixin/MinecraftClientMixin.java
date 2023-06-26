@@ -1,4 +1,4 @@
-package org.teacon.xibao.mixin;
+package org.thinkingstudio.xibao.mixin;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import org.teacon.xibao.config.XiBaoConfig;
+import org.thinkingstudio.xibao.config.XiBaoConfig;
 
 @Environment(EnvType.CLIENT)
 @Mixin(MinecraftClient.class)

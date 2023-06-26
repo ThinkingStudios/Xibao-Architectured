@@ -1,4 +1,4 @@
-package org.teacon.xibao.mixin;
+package org.thinkingstudio.xibao.mixin;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -11,9 +11,9 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.teacon.xibao.config.XiBaoConfig;
-import org.teacon.xibao.util.RenderHelper;
-import org.teacon.xibao.util.SnowAnimation;
+import org.thinkingstudio.xibao.config.XiBaoConfig;
+import org.thinkingstudio.xibao.util.RenderHelper;
+import org.thinkingstudio.xibao.util.SnowAnimation;
 
 @Environment(EnvType.CLIENT)
 @Mixin(DisconnectedScreen.class)

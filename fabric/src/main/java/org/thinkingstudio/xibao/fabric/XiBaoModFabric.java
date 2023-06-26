@@ -1,7 +1,7 @@
-package org.teacon.xibao.fabric;
+package org.thinkingstudio.xibao.fabric;
 
 import net.fabricmc.api.ClientModInitializer;
-import org.teacon.xibao.XiBaoMod;
+import org.thinkingstudio.xibao.XiBaoMod;
 
 public class XiBaoModFabric implements ClientModInitializer {
 

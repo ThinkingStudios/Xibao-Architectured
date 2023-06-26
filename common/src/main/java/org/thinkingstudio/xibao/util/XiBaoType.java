@@ -1,9 +1,9 @@
-package org.teacon.xibao.util;
+package org.thinkingstudio.xibao.util;
 
 import net.minecraft.sound.MusicSound;
 import net.minecraft.util.Identifier;
 
-public enum XibaoType {
+public enum XiBaoType {
     XIBAO(
             XiBaoMusic.XIBAO_MUSIC,
             new Identifier("xibaopp", "textures/xibao.png"),
@@ -27,15 +27,15 @@ public enum XibaoType {
     public final Identifier[] snows;
     public final String type;
 
-    XibaoType(MusicSound music, Identifier background, Identifier[] snows, String type) {
+    XiBaoType(MusicSound music, Identifier background, Identifier[] snows, String type) {
         this.music = music;
         this.background = background;
         this.snows = snows;
         this.type = type;
     }
 
-    public static XibaoType getByString(String type) {
-        for (XibaoType xibaoType : values()) {
+    public static XiBaoType getByString(String type) {
+        for (XiBaoType xibaoType : values()) {
             if (type.equals(xibaoType.type)) return xibaoType;
         }
         return XIBAO;
